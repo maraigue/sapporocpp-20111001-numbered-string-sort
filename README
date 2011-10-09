@@ -1,5 +1,6 @@
 数字混じり文字列ソート by H.Hiro (main at hhiro.net)
-2011.10.1 札幌C++勉強会にて
+2011.10.1 札幌C++勉強会 "秋の「それ、Boostで書けるよ」祭り 2011"
+http://atnd.org/events/19719 にて
 
 出題元：
 
@@ -14,6 +15,9 @@ Windowsのエクスプローラがやっているような、「数字が連続�
 数字混じり文字列ソートでは「ABC500ABC」「ABC3000ABC」の順に並ぶ。
 
 使い方：
+
+Boost http://www.boost.org/ が必要です。1.42.0, 1.47.0での動作を確認しています。
+Boost.Xpressive（正規表現ライブラリ）とBoost.Foreachを使ってます。
 
 以下、UNIX系OSの場合で説明します。Windows環境では試していません。あしからず。
 $ emacs Makefile # emacsでもvimでもその他何でも。Makefile内にBoostのパスが指定してあるので、適宜変更する。

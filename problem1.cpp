@@ -1,5 +1,4 @@
 #include <boost/foreach.hpp>
-#include <boost/shared_ptr.hpp>
 #include <iostream>
 #include <fstream>
 #include <vector>
